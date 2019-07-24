@@ -1,0 +1,8 @@
+/* @font-face{
+    font-family: 'Bahij Janna';
+    src:url('./bahij_janna_regular.ttf');
+} */
+*{
+    /* font-family: 'bahij Janna'; */
+    font-family: 'Lato', sans-serif;
+}
