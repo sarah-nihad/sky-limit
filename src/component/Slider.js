@@ -27,15 +27,15 @@ class Slider extends Component {
       infinite= {true}
       // centered
     >
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
-      <img src={require('../img/1.png')} />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img'  />
+      <img src={require('../img/1.png')} alt='img'     />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img' />
+      <img src={require('../img/1.png')} alt='img' />
     </Carousel>
 </div>
 <Foot1 />

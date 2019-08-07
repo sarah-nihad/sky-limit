@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './nav1.css'
-import Nav1 from './Nav1';
+
 import { Row,Col,Form,Button,Container } from 'react-bootstrap';
-import Foot1 from './foot1';
-import { Animated } from "react-animated-css";
+
+// import { Animated } from "react-animated-css";
 import axios from 'axios';
-import {TextInput,Select,toaster,FilePicker } from 'evergreen-ui';
+import {toaster} from 'evergreen-ui';
 // import Cookies from 'universal-cookie';
 // const cookies = new Cookies();
 class Contact extends Component {
@@ -14,7 +14,7 @@ class Contact extends Component {
     super(props);
 this.state={
   data:[],
-data:'',
+
     name:'',
     email:'',
     text:''

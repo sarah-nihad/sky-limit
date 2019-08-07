@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
  import { Row,Col } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
-import { Animated } from "react-animated-css"; 
+// import {Link} from 'react-router-dom';
+// import { Animated } from "react-animated-css"; 
 import Foot1 from './foot1';
 import Nav1 from '../component/Nav1';
 import Products from './Products';
 import Contact from './Contact';
-import About from './About';
-import { log } from 'util';
+// import About from './About';
+// import { log } from 'util';
 class Home extends Component {
     constructor(){
         super();
@@ -69,7 +69,7 @@ class Home extends Component {
 
 <Col md={6} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
     
-<img src={require('../img/Slider.jpg')} id='styleimghomeo'   />
+<img src={require('../img/Slider.jpg')} id='styleimghomeo' alt='img'  />
 
 </Col>
 

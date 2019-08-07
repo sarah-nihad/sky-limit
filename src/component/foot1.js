@@ -36,7 +36,7 @@ render() {
 
 
           <i className='fas fa-envelope' id="i2"></i>    <h6 id="h6">Email :</h6>
-      <p>info@SKYlimitx.com</p>
+      <p>Info.skylimitx@gmail.com</p>
       <i className="fa fa-clock-o" id="i2"></i> <h6 id="h6">Work days / Hours : </h6>
       <p>Saturday - Thursday 10am to 6pm</p>
 </Col> 
@@ -46,11 +46,12 @@ render() {
         
  <Col lg={4} id="c2" >
 {/* <h4 >Contact Us </h4> */}
-         <a href ="https://www.facebook.com/406268033310241" id="fac" > <img src ={require('../img/facebook.png')} id="ii"/> </a>
-         <Link to ="#" id="fac"  >  <img src ={require('../img/lin.png')} id="ii"/></Link>
-         <Link to ="#" id="fac" >  <img src ={require('../img/insta.png')} id="ii"/></Link>
-         <Link to ="#"id="fac"  >  <img src ={require('../img/twitter.png')} id="ii"/></Link>
-         <Link to ="#" id="fac" >  <img src ={require('../img/youtube.png')} id="ii"/></Link>
+         <a href ="https://www.facebook.com/406268033310241" id="fac" > 
+         <img src ={require('../img/facebook.png')}  alt='img'  id="ii"/> </a>
+         <Link to ="#" id="fac"  >  <img src ={require('../img/lin.png')} alt='img'  id="ii"/></Link>
+         <Link to ="#" id="fac" >  <img src ={require('../img/insta.png')}  alt='img' id="ii"/></Link>
+         {/* <Link to ="#"id="fac"  >  <img src ={require('../img/twitter.png')} id="ii"/></Link> */}
+         <Link to ="#" id="fac" >  <img src ={require('../img/youtube.png')} alt='img' id="ii"/></Link>
          </Col> 
           
          </Row> 

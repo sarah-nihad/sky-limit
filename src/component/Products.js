@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Nav1 from './Nav1';
-import Foot1 from './foot1';
+// import Nav1 from './Nav1';
+// import Foot1 from './foot1';
 import './nav1.css';
 import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Animated } from "react-animated-css";
+// import { Animated } from "react-animated-css";
 class Products extends Component {
   render() {
     return (
@@ -36,7 +36,7 @@ class Products extends Component {
 
 
 
-                      <img src={require('../img/ll.png')} id="im" />
+                      <img src={require('../img/ll.png')} id="im" alt='img' />
 
                     </div>
                   </div>
@@ -53,7 +53,7 @@ class Products extends Component {
 
 
 
-                    <img src={require('../img/Soon.png')} id="im" />
+                    <img src={require('../img/Soon.png')} id="im" alt='img'   />
 
                   </div>
                 </div>

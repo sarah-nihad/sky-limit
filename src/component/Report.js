@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './nav1.css';
 import Teamnav from './Teamnav';
 import Teamfoot from './Teamfoot';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 
 
 class Report extends Component {
@@ -15,7 +15,7 @@ class Report extends Component {
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', marginTop: '60px', flexDirection: 'column' }} >
                      <div style={{display:'flex',alignItems:'center',justifyContent:'center'}} id='repoimg4e'  >
                        
-                     <img src={require('../img/1.png')} style={{ height: '40px' }} />  <div id="h3"> Team Reports </div>
+                     <img src={require('../img/1.png')} style={{ height: '40px' }} alt='img'/>  <div id="h3"> Team Reports </div>
                      </div>
                         <Row style={{ marginRight: '0px', width: '85%',marginTop:'5%' }}  >
 
@@ -23,7 +23,7 @@ class Report extends Component {
 
                             <Col xs={12} id='coltext' >
                                 <div className='imgbox'>
-                                    <img src={require('../img/rep1.png')} />
+                                    <img src={require('../img/rep1.png')} alt='img'  />
                                     <div className='textbox1'>
                                         <div>
                                             <p>1. Activity report : you can gain reports based on dates as </p>
@@ -45,7 +45,7 @@ class Report extends Component {
 
                             <Col xs={12} id='coltext' >
                                 <div className='imgbox'>
-                                    <img src={require('../img/rep2.png')} />
+                                    <img src={require('../img/rep2.png')} alt='img' />
                                     <div className='textbox1'>
                                         <div>
                                             <p>2. Team Performance :</p>
@@ -66,7 +66,7 @@ class Report extends Component {
 
                             <Col xs={12} id='coltext' >
                                 <div className='imgbox'>
-                                    <img src={require('../img/rep3.png')} />
+                                    <img src={require('../img/rep3.png')} alt='img' />
                                     <div className='textbox1'>
                                         <div>
                                             <p>3. Team Order : both of Medical and Trade team can benefit from
@@ -84,14 +84,14 @@ this report as you can find</p>
 
                         <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:'7%'}} id='repoimg4ss'  >
                        
-                       <img src={require('../img/2.png')} style={{ height: '40px' }} />  <div id="h3">Customers Reports</div>
+                       <img src={require('../img/2.png')} style={{ height: '40px' }} alt='img' />  <div id="h3">Customers Reports</div>
 </div>
                         <Row style={{ marginRight: '0px', width: '85%',marginTop:'5%' }}  >
 
 
                             <Col xs={12} id='coltext' >
                                 <div className='imgbox'>
-                                    <img src={require('../img/rep4.png')} />
+                                    <img src={require('../img/rep4.png')} alt='img' />
                                     <div className='textbox'>
                                         <div>
                                             <p>1. Doctors Activity : Here you can see full picture for the doctor and below
@@ -116,7 +116,7 @@ this report as you can find</p>
 
                             <Col xs={12} id='coltext' >
                                 <div className='imgbox'>
-                                    <img src={require('../img/rep5.png')} />
+                                    <img src={require('../img/rep5.png')} alt='img' />
                                     <div className='textbox'>
                                         <div>
                                             <p>2- Pharmacy Activity : the Best tool to see how is your business harmonize
@@ -139,7 +139,6 @@ more productive by below report </p>
 
 
                     </div>
-
 
                 </div>
                 <Teamfoot />

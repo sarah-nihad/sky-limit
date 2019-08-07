@@ -3,8 +3,8 @@ import React,{Component} from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './component/Home';
-import Nav1 from './component/Nav1';
-import Foot1 from './component/foot1';
+// import Nav1 from './component/Nav1';
+// import Foot1 from './component/foot1';
 import About from './component/About';
 import Contact from './component/Contact';
 import Teami from './component/Teami';
@@ -13,7 +13,7 @@ import Pricing from './component/Pricing';
 import Report from './component/Report';
 import Objective from './component/Objective';
 import Products from './component/Products';
-import Slider from './component/Slider';
+// import Slider from './component/Slider';
 
 class App extends Component{
 render () {
