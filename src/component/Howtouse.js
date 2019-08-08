@@ -415,7 +415,7 @@ class Howtouse extends Component {
 
                                                 <div id='text1'>
 
-                                                    <img src={require('../img/Screen9.png')} alt='img' id="im1" />
+                                                    <img src={require('../img//Laptop.png')} alt='img' id="im1lap" />
 
                                                 </div>
 

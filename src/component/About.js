@@ -9,10 +9,10 @@ import '@brainhubeu/react-carousel/lib/style.css';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div >
         <div id="apfot">
           <Nav1 />
-          <div id='aboutsse1'>
+          <div id='aboutsse1' style={{paddingBottom:'5%',paddingTop:'1%'}}  >
             <div id='abouthead'  >
               About Sky Limit X
 </div>

@@ -4,8 +4,8 @@ import Teamnav from './Teamnav';
 import Teamfoot from './Teamfoot';
 // import { Media, Player, controls } from 'react-media-player'
 import video from '../vid/timi.mp4';
-import Objective from './Objective';
-import Pricing from './Pricing';
+// import Objective from './Objective';
+// import Pricing from './Pricing';
 // import CustomPlayPause from './CustomPlayPause'
 // const { PlayPause, MuteUnmute } = controls
 
@@ -28,11 +28,11 @@ class Teami extends Component {
         </source>
       </video> */}
       <div id='videotimi'>
- <video controls src={video} type="video/mp4"  width="85%" height="480" id='vvvtimivideo'></video>
+ <video controls src={video} type="video/mp4" autoPlay="true" width="85%" height="480" id='vvvtimivideo'></video>
 
  </div>
-<Objective />
-<Pricing />
+{/* <Objective />
+<Pricing /> */}
         </div>
 
         <Teamfoot />

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './nav1.css'
-// import Teamnav from './Teamnav';
-// import Teamfoot from './Teamfoot';
+import Teamnav from './Teamnav';
+import Teamfoot from './Teamfoot';
 import { Row, Col} from 'react-bootstrap';
 class Objective extends Component {
     render() {
         return (
             <div  id='Concep'>
                 <div id="howfot">
-                    {/* <Teamnav /> */}
+                    <Teamnav />
 
                     {/* <div id='homemainapp'>
                       
@@ -164,7 +164,7 @@ orders</div>
 
 
                 </div>
-                {/* <Teamfoot /> */}
+                <Teamfoot />
             </div>
         );
     }

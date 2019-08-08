@@ -20,7 +20,7 @@ class Teamnav extends Component {
     }
     render() {
         return (
-            <div className="App">
+            <div id="Appnav">
 
 
                 <Navbar id="teamnav" expand="lg">
@@ -42,32 +42,15 @@ class Teamnav extends Component {
                             <NavLink to="/Howtouse" style={{ textDecoration: 'none' }}> <div id="how"> How To Use</div></NavLink>
                             </div>
                             <div id='temnavmedia'>
-                            {this.renderRedirect()}
-                            <div onClick={() => {
-                                    if (this.props.match.path !== '/Teami') {
-                                        this.setState({ redir: true })
-                                    }
-                                    setTimeout(() => {
-                                        document.getElementById('Concep').scrollIntoView({ behavior: 'smooth' });
-                                    }, 200);
-
-                                }} id="abj">Concept</div>
+                      
+                            <NavLink to="/Objective" style={{ textDecoration: 'none' }} >     <div  id="abj">Concept</div></NavLink>
                             
                             </div>
                             <div id='temnavmedia'>
                             <NavLink to="/Report" style={{ textDecoration: 'none' }} > <div id="rep">Reports</div></NavLink>
                             </div>
                             <div id='temnavmedia'>
-                            {this.renderRedirect()}
-                            <div onClick={() => {
-                                    if (this.props.match.path !== '/Teami') {
-                                        this.setState({ redir: true })
-                                    }
-                                    setTimeout(() => {
-                                        document.getElementById('Servisss').scrollIntoView({ behavior: 'smooth' });
-                                    }, 200);
-
-                                }}id="pric">Services</div>
+                            <NavLink to="/Pricing" style={{ textDecoration: 'none' }} >    <div   id="pric">Services</div></NavLink>
                               
                             </div>
                         </div>
