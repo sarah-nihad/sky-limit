@@ -19,19 +19,17 @@ class Teamnav extends Component {
         }
     }
     render() {
+        
         return (
             <div id="Appnav">
 
 
                 <Navbar id="teamnav" expand="lg">
-
-
-                    <Navbar.Brand > <img src={require('../img/log.png')} alt='img' id="logott" />
+ <Navbar.Brand > <img src={require('../img/log.png')} alt='img' id="logott" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-
                         </Nav>
                       
                         <div id="teamrowtt">
@@ -39,7 +37,9 @@ class Teamnav extends Component {
                             <Link to="/" style={{ textDecoration: 'none' }} > <div id="pric">Home</div></Link>
                             </div>
                             <div id='temnavmedia'>
-                            <NavLink to="/Howtouse" style={{ textDecoration: 'none' }}> <div id="how"> How To Use</div></NavLink>
+                            <NavLink to="/Howtouse" style={{ textDecoration: 'none' }}> 
+                            <div id="how"> How To Use</div>
+                            </NavLink>
                             </div>
                             <div id='temnavmedia'>
                       
@@ -57,16 +57,6 @@ class Teamnav extends Component {
                     </Navbar.Collapse>
 
                 </Navbar>
-
-
-
-
-
-
-
-
-
-
 
 
 

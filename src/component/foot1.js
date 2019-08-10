@@ -21,17 +21,10 @@ render() {
         <h6 id="h6"> Address :  </h6>
       <p>Baghdad - Al-Yarmok - Opposit Noname garden</p>
       <i className='fas fa-phone' id="i2"></i> <h6 id="h6">Mobile :</h6>
-      <p>+9647710509440</p> 
+      <p>+964 7710509440</p> 
       
       
       </Col>
-     
-     
-       
-        
-     
-      
-   
           <Col id="c1" lg={3} >
 
 

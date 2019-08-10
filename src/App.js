@@ -13,7 +13,7 @@ import Pricing from './component/Pricing';
 import Report from './component/Report';
 import Objective from './component/Objective';
 import Products from './component/Products';
-// import Aboutahmed from './component/Aboutahmed';
+
 // import Slider from './component/Slider';
 
 class App extends Component{
@@ -27,7 +27,6 @@ render () {
   {/* <Slider /> */}
 
     <Route exact path='/' component={Home} />
-     
    <Route  path='/Contact' component={Contact} />
      <Route  path='/About' component={About} />
      <Route  path='/Products' component={Products} />
@@ -36,7 +35,7 @@ render () {
    <Route path='/Objective' component={Objective} />
    <Route path ='/Report' component={Report} />
    <Route path ='/Pricing' component={Pricing} />  
-  {/* <Aboutahmed /> */}
+  
     </div>
   
    

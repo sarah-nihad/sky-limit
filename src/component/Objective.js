@@ -108,7 +108,7 @@ orders
                     </Col>
                 </Row>
 
-                <Row style={{ marginRight: 0 ,marginTop:'5%',marginBottom:'5%',width:'90%'}}>
+                <Row style={{ marginRight: 0 ,marginTop:'5%',paddingBottom:'12%',width:'90%'}}>
                     <Col xs={12} md={4} id='objcol22'  >
                         <div id='boxss'>
                             <div id='cont'>

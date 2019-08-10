@@ -46,7 +46,7 @@ class Products extends Component {
               </Col>
               <Col xs={12} lg={6} id="col1" >
                 {/* <div className="soon"> */}
-
+<div>
                 <div className='box1'>
                   <span> </span>
                   <div id='elemntbox'>
@@ -56,7 +56,7 @@ class Products extends Component {
                     <img src={require('../img/Soon.png')} id="im" alt='img'   />
 
                   </div>
-                </div>
+                </div></div>
 
                 {/* <img src={require('../img/soon.jpg')} id="im" /> */}
 

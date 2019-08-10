@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './nav1.css'
 import { Navbar, Nav } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { log } from 'util';
 import { withRouter, Redirect } from 'react-router';
 class Nav1 extends Component {
@@ -64,7 +64,7 @@ class Nav1 extends Component {
                             }} id="home">Products</div>
                             {/* </Col>
                             <Col xs={12} lg={3} > */}
-                            <NavLink to="/About" id="about">About</NavLink>
+                            <Link to="/About" id="about">About</Link>
                             {/* </Col>
                             <Col xs={12} lg={3} > */}
                             {this.renderRedirect()}
