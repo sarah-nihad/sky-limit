@@ -25,7 +25,7 @@ class Teamnav extends Component {
 
 
                 <Navbar id="teamnav" expand="lg">
- <Navbar.Brand > <img src={require('../img/log.png')} alt='img' id="logott" />
+ <Navbar.Brand >  <Link to='./Teami'>  <img src={require('../img/log.png')} alt='img' id="logott" /></Link> 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

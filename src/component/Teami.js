@@ -28,7 +28,7 @@ class Teami extends Component {
         </source>
       </video> */}
       <div id='videotimi'>
- <video controls src={video} type="video/mp4" autoPlay="true" width="85%" height="480" id='vvvtimivideo'></video>
+ <video controls src={video} type="video/mp4" autoPlay={true} width="85%" height="480" id='vvvtimivideo'></video>
 
  </div>
 {/* <Objective />

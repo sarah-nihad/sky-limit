@@ -5,9 +5,9 @@ import React, { Component } from 'react';
 import Foot1 from './foot1';
 import Nav1 from '../component/Nav1';
 import Products from './Products';
-import Contact from './Contact';
+// import Contact from './Contact';
 // import About from './About';
-// import { log } from 'util';
+
 class Home extends Component {
     constructor(){
         super();
@@ -69,7 +69,7 @@ class Home extends Component {
 
 <Col md={6} style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
     
-<img src={require('../img/Slider.jpg')} id='styleimghomeo' alt='img'  />
+<img src={require('../img/sss.png')} id='styleimghomeo' alt='img'  />
 
 </Col>
 
@@ -78,7 +78,7 @@ class Home extends Component {
                     </Row>
               </div>
               <Products />
-              <Contact />
+              {/* <Contact /> */}
               </div>
               <Foot1 />
             </div>

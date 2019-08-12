@@ -403,7 +403,7 @@ class Howtouse extends Component {
 
 
                         <Container>
-                            <ScrollAnimation animateIn='fadeInRight' animationInDelay='1'   >
+                            <ScrollAnimation animateIn='fadeInLeft' animationInDelay='1'   >
                                 <Row style={{ marginRight: '0px' }} id='rcolor'  >
 
 
@@ -411,14 +411,9 @@ class Howtouse extends Component {
 
                                         <ScrollAnimation animateIn='fadeInLeft' animationInDelay='1'  >
                                             <div id="textelemnt">
-
-
                                                 <div id='text1'>
-
                                                     <img src={require('../img//Laptop.png')} alt='img' id="im1lap" />
-
                                                 </div>
-
                                             </div>
                                             <br />
                                         </ScrollAnimation>
@@ -446,30 +441,11 @@ class Howtouse extends Component {
                             </ScrollAnimation>
                         </Container>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
-
-
                 </div>
                 <Teamfoot />
 
             </div>
-
-
 
         );
     }
