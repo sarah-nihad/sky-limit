@@ -43,14 +43,14 @@ class Teamnav extends Component {
                             </div>
                             <div id='temnavmedia'>
                       
-                            <NavLink to="/Objective" style={{ textDecoration: 'none' }} >     <div  id="abj">Concept</div></NavLink>
+                            <NavLink to="/Concept" style={{ textDecoration: 'none' }} >     <div  id="abj">Concept</div></NavLink>
                             
                             </div>
                             <div id='temnavmedia'>
                             <NavLink to="/Report" style={{ textDecoration: 'none' }} > <div id="rep">Reports</div></NavLink>
                             </div>
                             <div id='temnavmedia'>
-                            <NavLink to="/Pricing" style={{ textDecoration: 'none' }} >    <div   id="pric">Services</div></NavLink>
+                            <NavLink to="/Services" style={{ textDecoration: 'none' }} >    <div   id="pric">Services</div></NavLink>
                               
                             </div>
                         </div>

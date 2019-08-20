@@ -9,9 +9,9 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Teami from './component/Teami';
 import Howtouse from './component/Howtouse';
-import Pricing from './component/Pricing';
+import Services from './component/Services';
 import Report from './component/Report';
-import Objective from './component/Objective';
+import Concept from './component/Concept';
 import Products from './component/Products';
 
 // import Slider from './component/Slider';
@@ -32,9 +32,9 @@ render () {
      <Route  path='/Products' component={Products} />
    <Route path='/Teami' component={Teami} />
   <Route path='/Howtouse' component={Howtouse} />
-   <Route path='/Objective' component={Objective} />
+   <Route path='/Concept' component={Concept} />
    <Route path ='/Report' component={Report} />
-   <Route path ='/Pricing' component={Pricing} />  
+   <Route path ='/Services' component={Services} />  
   
     </div>
   
