@@ -28,7 +28,7 @@ class Products extends Component {
           <Container>
             <Row style={{ marginRight: '0px', marginBottom: '10%' }} id='rowproduct' >
 
-              <Col xs={12} lg={6} id="col1" >
+              <Col xs={12} lg={4} id="col1" >
                 <Link to='./Teami'>
                   <div className='box'>
                     <span> </span>
@@ -44,27 +44,41 @@ class Products extends Component {
                 <br />
 
               </Col>
-              <Col xs={12} lg={6} id="col1" >
-                {/* <div className="soon"> */}
+              <Col xs={12} lg={4} id="col1" >
+              
 <div>
-                <div className='box1'>
+                <div className='box2'>
                   <span> </span>
                   <div id='elemntbox'>
 
 
 
-                    <img src={require('../img/Soon.png')} id="im" alt='img'   />
+                    <img src={require('../img/Link.png')} id="im" alt='img'   />
 
                   </div>
                 </div></div>
 
-                {/* <img src={require('../img/soon.jpg')} id="im" /> */}
-
-                {/* </div> */}
+              
                 <br />
-
               </Col>
-
+              <Col xs={12} lg={4} id="col1" >
+              
+              <div>
+                              <div className='box1'>
+                                <span> </span>
+                                <div id='elemntbox'>
+              
+              
+              
+                                  <img src={require('../img/Soon.png')} id="im" alt='img'   />
+              
+                                </div>
+                              </div></div>
+              
+                            
+              
+                            </Col>
+              
             </Row>
           </Container>
 
